@@ -22,7 +22,9 @@ img{
         color: black;
       }
       /*styling ends across all pages*/
+
       /*styling begins in the homepage*/
+
      .img1{
        border: 10px double darkred; /*the three values represent: border-width border-style border color */
       margin: 10px 50px; /* the 2 values represnt:top left & right bottom*/
@@ -32,8 +34,9 @@ img{
       border: 12px dotted gray;
       margin: 10px 25px 20px; /*the three values represent: top left&right bottom */
       width: 150px;
-      height: 200px; /* the 2 values represent :top&bottom left&right*/
-     }
+      height: 200
+      }
+
      p{
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       font-size: 20px;
@@ -42,20 +45,24 @@ img{
       line-height: 1.8;
       text-align: justify;
      }
+
      button{
-  color: blueviolet;
-  background-color: aquamarine;
-  opacity: 0.75;
-  width: 150px;
-  height: 25px;
-  border: 1px solid blueviolet;
-  border-radius: 10px;
-  cursor: pointer;
+       color: blueviolet;
+      background-color: aquamarine;
+       opacity: 0.75;
+      width: 150px;
+       height: 25px;
+      border: 1px solid blueviolet;
+       border-radius: 10px;
+      cursor: pointer;
      }
-    body{
-    /*overflow-y: hidden;*/
-    }
+
+    /* body{
+    overflow-y: hidden;
+    } */
+    
     /*login styling begins here*/
+    
 
     .products{
       display: flex;
